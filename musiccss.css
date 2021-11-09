@@ -22,32 +22,18 @@
 .header li a:hover {
     background-color: rgb(110, 110, 110, 0.5);
   }
-  .flex-container {
-    display: flex;
-    width: 100%;
-    flex-wrap: column wrap;
-    margin-top: 10%;
-  }
-  .flex-container > .flex-item-left {
-    background-color: rgba(164, 95, 255,0.7);
-    color: #ffffff;
-    width: 300%;
-    padding: 5%;
-    margin-left:20%;
-    text-align: left;
-    line-height: 25px;
-    font-size: 17px;
-    flex: 50%;
-  }
-  .flex-container > .flex-item-right {
-    background-color: rgba(46, 102, 255, 0.7);
-    color: white;
-    width: 100%;
-    padding: 5%;
-    margin-right:20%;
-    text-align: left;
-    line-height: 25px;
-    font-size: 17px;
-    flex: 50%;
-  }
   
+  .item-left{
+    padding: 2%;
+    float: left;
+    width: 50%;
+  }
+  .item-right{
+    margin-top: 4%;
+    margin-right: 9%;
+    width: 36%;
+    float: right;
+  }
+  .section1{
+    background-image: url("yoasobibackground.jpg");
+  }
