@@ -4,3 +4,8 @@ introduction - https://en.wikipedia.org/wiki/Yoasobi#:~:text=Yoasobi%20(stylized
 minimise pic (home page)- https://www.pinterest.com/pin/11962755251932118/
 about me page picture - https://www.pinterest.com/pin/549087379577512196/
 home page picture - https://www.pinterest.com/pin/683280574722314975/
+yoasobi first section album cover - https://upload.wikimedia.org/wikipedia/en/9/93/Yoru_ni_Kakeru_cover_art.jpg
+yoasobi first section 2 album cover - https://i1.sndcdn.com/artworks-TdmOz4hkE9nND67z-gQVixw-t500x500.jpg
+yoasobi second section album cover - https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fwei-c-64354559%2Fyoasobi-halzion-cover&psig=AOvVaw06p0NHRCI5wK7vtIgnXbbI&ust=1636701181454000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOCr_Jbhj_QCFQAAAAAdAAAAABAD
+yoasobi second section 2 album cover - https://assets.audiomack.com/riddikulusravenpuff/00bb4007890562906a4ed78e58a81db17b751f968b9f75ab67ab2604c0f99115.jpeg?width=1000&height=1000&max=true
+yoasobi third section album cover - https://i1.sndcdn.com/artworks-fd9ZAieNVU2Dnx4s-QBBDag-t500x500.jpg

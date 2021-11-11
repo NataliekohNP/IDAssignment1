@@ -5,6 +5,12 @@
     overflow: hidden;
     background: linear-gradient(to left, rgba(107, 44, 255) , rgba(109, 177, 255) );
   }
+body{
+  background-image: url("yoasobiwallpaper2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
   
 .header li {
     float: left;
@@ -23,18 +29,25 @@
     background-color: rgb(110, 110, 110, 0.5);
   }
   
-  .item-left{
+.item-left{
     padding: 2%;
     float: left;
     width: 50%;
   }
-  .item-right{
+.item-right{
     margin-top: 4%;
     margin-right: 9%;
     width: 36%;
     float: right;
   }
-.section1{
-    background-image: url("yoasobibackground.jpg");
-    
-}
+  .section{
+    padding-top:20%;
+    padding-bottom: 20%;
+  }
+  h3{
+    background: linear-gradient(to left, rgba(125, 255, 212, 0.7) , rgba(240, 163, 255) ); 
+    color: white;
+    margin-top: -5%;
+    padding: 5%;
+    font-size: 20px;
+  }
