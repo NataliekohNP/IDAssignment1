@@ -5,12 +5,7 @@
     overflow: hidden;
     background: linear-gradient(to left, rgba(107, 44, 255) , rgba(109, 177, 255) );
   }
-body{
-  background-image: url("yoasobiwallpaper2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
+
   
 .header li {
     float: left;
@@ -30,24 +25,47 @@ body{
   }
   
 .item-left{
+  margin-top: -7%;
     padding: 2%;
     float: left;
     width: 50%;
   }
 .item-right{
     margin-top: 4%;
-    margin-right: 9%;
-    width: 36%;
+    margin-right: 10%;
+    width: 25%;
     float: right;
   }
-  .section{
-    padding-top:20%;
-    padding-bottom: 20%;
-  }
+  
   h3{
-    background: linear-gradient(to left, rgba(125, 255, 212, 0.7) , rgba(240, 163, 255) ); 
     color: white;
     margin-top: -5%;
     padding: 5%;
-    font-size: 20px;
+    font-size: 40px;
   }
+  .section3{
+    background: linear-gradient(to left, rgb(245, 80, 143),  rgb(91, 76, 95) );
+    padding-top: 10%;
+    background-size: cover;
+    padding-bottom: 40%;
+  }
+  .section1{
+    background: linear-gradient(to left, rgb(72, 255, 255) , rgb(222, 113, 255) );
+    padding-top: 10%;
+    background-size: cover;
+    padding-bottom: 40%;
+  }
+  .section2{
+    background: linear-gradient(to left, rgb(132, 155, 255) , rgb(252, 176, 255) );
+    padding-top: 10%;
+    background-size: cover;
+    padding-bottom: 40%;
+  }
+  .section4{
+    background: linear-gradient(to left, rgb(255, 0, 0) , rgb(0, 0, 0) );
+    padding-top: 10%;
+    background-size: cover;
+    padding-bottom: 40%;
+  }
+
+  
