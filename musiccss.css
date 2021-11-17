@@ -19,9 +19,11 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  
 .header li a:hover {
     background-color: rgb(110, 110, 110, 0.5);
+  }
+  body{
+    background: linear-gradient(to bottom, rgb(72, 255, 255) , rgb(222, 113, 255),rgb(132, 155, 255) );
   }
   
 .item-left{
@@ -67,5 +69,179 @@
     background-size: cover;
     padding-bottom: 40%;
   }
-
+  .footer{
+    padding: 15%;
+    background: linear-gradient(to left, rgba(107, 44, 255, 0.5) , rgba(109, 177, 255) );
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+  }
+  .footer h3{
+    font-size: 25px;
+  }
+  .aside-left{
+    margin-top: -10%;
+    width: 40%;
+    float: left;
+  }
+  .aside-right{
+    margin-top: -10%;
+    width: 30%;
+    float: right;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+  }
   
+  input[type=text]:focus {
+    border: 3px solid rgb(156, 69, 255);
+  }
+  .submit {
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(255, 255, 255,0);
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+  }
+  
+  .submit:hover {
+    border: 2px solid rgb(180, 113, 255);
+    background-color: rgb(173, 101, 255);
+    color: white;
+  }
+
+  @media screen and (max-width: 1050px)  {
+    body{
+      background: linear-gradient(to bottom, rgb(72, 255, 255) , rgb(222, 113, 255),rgb(132, 155, 255) , rgb(252, 176, 255),rgb(245, 80, 143),  rgb(91, 76, 95), rgb(255, 0, 0),rgb(0, 0, 0) );
+    }
+    .header ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: linear-gradient(to left, rgb(85, 255, 204) , rgb(255, 140, 255) );
+    }
+  
+    
+  .header li {
+      float: left;
+    }
+    
+  .header li a {
+      display: block;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+  .header li a:hover {
+      background-color: rgb(110, 110, 110, 0.5);
+    }
+    .item-right img{
+      display: none;
+    }
+    .item-right{
+      width: 10%;
+      font-size: 10px;
+      float: left;
+    }
+    h3{
+      margin-left: 70%;
+      color: black;
+      margin-top: -100%;
+    }
+    .item-left{
+      margin-right: 10%;
+      float: right;
+      width: 50%;
+
+    }
+    .section1{
+      background: rgba(255, 255, 255, 0.7);
+      margin-bottom: 50%;
+      padding-top: 10%;
+      padding-bottom: 40%;
+    }
+    .section2{
+      background: rgba(255, 255, 255, 0.7);
+      margin-bottom: 50%;
+      padding-top: 10%;
+      padding-bottom: 40%;
+    }
+    .section3{
+      background: rgba(255, 255, 255, 0.7);
+      margin-bottom: 50%;
+      padding-top: 10%;
+      padding-bottom: 40%;
+    }
+    .section4{
+      background: rgba(255, 255, 255, 0.7);
+      margin-bottom: 50%;
+      padding-top: 10%;
+      padding-bottom: 40%;
+    }
+    .footer{
+      padding: 20%;
+      background: linear-gradient(to bottom right, rgb(255, 0, 0) , rgb(0, 0, 0));
+      margin-top: 10%;
+      color: white;
+      font-size: 12px;
+      height: 170px;
+      padding-bottom: 40%;
+    }
+    .footer h3{
+      color: white;
+      font-size: 15px;
+    }
+    .aside-left{
+      float: none;
+      width: 100%;
+    }
+    .footer h3{
+      font-size: 20px;
+      margin-top: 0%;
+      text-align: left;
+      margin-left:0%;
+    }
+    .aside-right{
+      width: 100%;
+      float: none;
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+    input[type=text] {
+      width: 100%;
+      padding: 6px 8px;
+      margin: 5px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      transition: 0.5s;
+      outline: none;
+    }
+    
+    input[type=text]:focus {
+      border: 3px solid rgb(255, 0, 0);
+    }
+    .submit {
+      width: 100%;
+      padding: 3%;
+      background-color: rgb(255, 255, 255,0);
+      color: rgb(255, 255, 255);
+      border: 2px solid #ffffff;
+    }
+    
+    .submit:hover {
+      border: 2px solid rgb(255, 255, 255);
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+    }
+  }
+

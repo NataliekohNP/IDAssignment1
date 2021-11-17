@@ -135,33 +135,57 @@ ul {
   }
 
   @media screen and (max-width: 1050px){
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: linear-gradient(to left, rgb(0, 255, 179) , rgb(238, 109, 255) );
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(110, 110, 110, 0.5);
+    }
     .intro{
       text-align: center;
-      background: linear-gradient(to left, rgba(107, 44, 255, 0.5) , rgba(109, 177, 255, 0.5) );
+      background: linear-gradient(to left, rgba(255, 72, 246, 0.7) , rgba(0, 255, 170, 0.7) );
       font-size: 11px;
       font: weight 6px;
-      color: white;
+      color: rgb(255, 255, 255);
       margin: 5%;
   }
     .flex-container {
       display: flex;
-      flex-wrap: column wrap;
+      flex-wrap: column;
       align-content: flex-start;
       margin-top: 10%;
     }
     .flex-container > .flex-item-left {
-      background-color: rgba(164, 95, 255,0.7);
-      color: white;
+      background-color: rgba(0, 255, 200, 0.7);
+      color: #ffffff;
       width: 100px;
       padding: 5%;
       margin-left:20%;
       text-align: left;
       line-height: 15px;
       font-size: 12px;
-      flex: 50%;
+      flex: 100%;
     }
     .flex-container > .flex-item-right {
-      background-color: rgba(46, 102, 255, 0.7);
+      background-color: rgba(255, 112, 255, 0.7);
       color: white;
       width: 100px;
       padding: 5%;
@@ -169,7 +193,7 @@ ul {
       text-align: left;
       line-height: 15px;
       font-size: 12px;
-      flex: 50%;
+      flex: 100%;
     }
     .flex-container > .flex-item-right-blank {
       background-image: url("yoasobi3.jpg");
@@ -180,7 +204,7 @@ ul {
       margin-top: -5%;
       margin-bottom: -5%;
       margin-left: -5%;
-      flex: 50%;
+      flex: 100%;
     }
     .flex-container > .flex-item-left-blank {
       background-image: url("producerpic.jpg");
@@ -191,12 +215,12 @@ ul {
       margin-top: -5%;
       margin-bottom: -5%;
       margin-right: -5%;
-      flex: 50%;
+      flex: 100%;
     }
 
     .footer{
       padding: 20%;
-      background: linear-gradient(to left, rgba(107, 44, 255, 0.5) , rgba(109, 177, 255) );
+      background: linear-gradient(to left, rgba(255, 72, 246, 0.7) , rgba(0, 255, 170, 0.7));
       margin-top: 10%;
       color: white;
       font-size: 12px;
@@ -224,7 +248,7 @@ ul {
     }
     
     input[type=text]:focus {
-      border: 3px solid rgb(156, 69, 255);
+      border: 3px solid rgb(234, 0, 255);
     }
     .submit {
       width: 100%;
@@ -235,8 +259,8 @@ ul {
     }
     
     .submit:hover {
-      border: 2px solid rgb(180, 113, 255);
-      background-color: rgb(173, 101, 255);
+      border: 2px solid rgb(86, 255, 218);
+      background-color: rgb(101, 255, 204);
       color: white;
     }
     
