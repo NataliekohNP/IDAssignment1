@@ -19,12 +19,15 @@
     padding: 14px 16px;
     text-decoration: none;
   }
+#active{
+    background-color:  rgba(76, 73, 255);
+}
 .header li a:hover {
     background-color: rgb(110, 110, 110, 0.5);
   }
-  body{
-    background: linear-gradient(to bottom, rgb(72, 255, 255) , rgb(222, 113, 255),rgb(132, 155, 255) );
-  }
+body{
+    background: linear-gradient(to bottom, rgb(72, 255, 255) , rgb(222, 113, 255),rgb(132, 155, 255) , rgb(252, 176, 255),rgb(245, 80, 143),  rgb(91, 76, 95), rgb(255, 0, 0),rgb(0, 0, 0),   rgba(109, 177, 255));
+}
   
 .item-left{
   margin-top: -7%;
@@ -38,33 +41,37 @@
     width: 25%;
     float: right;
   }
-  
+  p{
+    color:white;
+    margin-top: -10%;
+  }
   h3{
     color: white;
-    margin-top: -5%;
+    margin-top: -10%;
     padding: 5%;
-    font-size: 40px;
+    padding-left:0%;
+    font-size: 30px;
   }
   .section3{
-    background: linear-gradient(to left, rgb(245, 80, 143),  rgb(91, 76, 95) );
+    /* background: linear-gradient(to left, rgb(245, 80, 143),  rgb(91, 76, 95) ); */
     padding-top: 10%;
     background-size: cover;
     padding-bottom: 40%;
   }
   .section1{
-    background: linear-gradient(to left, rgb(72, 255, 255) , rgb(222, 113, 255) );
+    /* background: linear-gradient(to left, rgb(72, 255, 255) , rgb(222, 113, 255) ); */
     padding-top: 10%;
     background-size: cover;
     padding-bottom: 40%;
   }
   .section2{
-    background: linear-gradient(to left, rgb(132, 155, 255) , rgb(252, 176, 255) );
+    /* background: linear-gradient(to left, rgb(132, 155, 255) , rgb(252, 176, 255) ); */
     padding-top: 10%;
     background-size: cover;
     padding-bottom: 40%;
   }
   .section4{
-    background: linear-gradient(to left, rgb(255, 0, 0) , rgb(0, 0, 0) );
+    /* background: linear-gradient(to left, rgb(255, 0, 0) , rgb(0, 0, 0) ); */
     padding-top: 10%;
     background-size: cover;
     padding-bottom: 40%;
@@ -158,8 +165,21 @@
       color: black;
       margin-top: -100%;
     }
+    p{
+      color:white;
+      padding-left: 20%;
+      margin-top:-40%;
+      margin-left: 20%;
+      margin-right: -100px;
+    }
+    #spacing{
+      padding-bottom:90px;
+    }
+    #spacing2{
+      padding-bottom:140px;
+    }
     .item-left{
-      margin-right: 10%;
+      margin-right: 5%;
       float: right;
       width: 50%;
 
@@ -242,6 +262,12 @@
       border: 2px solid rgb(255, 255, 255);
       background-color: rgb(255, 255, 255);
       color: rgb(0, 0, 0);
+    }
+    .footer p{
+      padding-left: 0;
+      margin-top:0;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 

@@ -1,0 +1,74 @@
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to left, rgba(107, 44, 255) , rgba(109, 177, 255) );
+  }
+
+  
+.header li {
+    float: left;
+  }
+  
+.header li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+#active{
+    background-color:  rgba(76, 73, 255);
+}
+.header li a:hover {
+    background-color: rgb(110, 110, 110, 0.5);
+  }
+
+  .footer{
+    padding: 15%;
+    background: linear-gradient(to left, rgba(107, 44, 255, 0.5) , rgba(109, 177, 255) );
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+  }
+  .footer h3{
+    font-size: 25px;
+  }
+  .aside-left{
+    margin-top: -10%;
+    width: 40%;
+    float: left;
+  }
+  .aside-right{
+    margin-top: -10%;
+    width: 30%;
+    float: right;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid rgb(156, 69, 255);
+  }
+  .submit {
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(255, 255, 255,0);
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+  }
+  
+  .submit:hover {
+    border: 2px solid rgb(180, 113, 255);
+    background-color: rgb(173, 101, 255);
+    color: white;
+  }
