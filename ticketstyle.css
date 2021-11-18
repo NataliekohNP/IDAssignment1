@@ -1,5 +1,5 @@
 body{
-  background-image: url("ticket.jpg.png") ;
+  background-image: url("ticket.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(to left, rgba(107, 44, 255) , rgba(109, 177, 255) );
+    background: linear-gradient(to left, rgb(240, 82, 116) ,rgb(255, 96, 157));
   }
 
   
@@ -43,7 +43,7 @@ body{
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 17px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -75,7 +75,7 @@ body{
   
   /* When the radio button is checked, add a blue background */
   .container input:checked ~ .checkmark {
-    background-color: #ffee00;
+    background-color: #ff0080;
   }
   
   /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -110,11 +110,12 @@ body{
   .ticket{
     text-align: center;
     font-size: 40px;
-    color:#ffee00;
+    color:#ffffff;
   }
   .submit2 {
+    margin-top:5%;
     width: 100%;
-    padding: 3%;
+    padding: 2%;
     background-color: rgb(255, 255, 255,0);
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -123,14 +124,37 @@ body{
   
   .submit2:hover {
     font-size: 20px;
-    border: 2px solid #ffee00;
-    background-color: #ffee00;
+    border: 2px solid #ff0080;
+    background-color: #ff0080;
     color: rgb(0, 0, 0);
   }
+
+  .right-side{
+    color:rgb(255, 255, 255);
+    background-color: rgba(248, 36, 117, 0.9);
+    width:35%;
+    padding-bottom:14%;
+    float:right;
+  }
+  .left-side{
+    width:35%;
+    float:left;
+  }
+  legend{
+    color:rgb(255, 255, 255);
+    border: white;
+  }
+  .icon-container img{
+    background-color: white;
+    width: 40px;
+    border-radius: 2px;
+    padding: 5px;
+  }
+  
   /*-----------------------------------------------------------------------*/
   .footer{
     padding: 15%;
-    background: linear-gradient(to left, rgba(107, 44, 255, 0.5) , rgba(109, 177, 255) );
+    background: linear-gradient(to left, rgba(255, 44, 255, 0.5) , rgb(241, 32, 95) );
     margin-top: 10%;
     color: white;
     font-size: 15px;
@@ -176,6 +200,12 @@ body{
   }
 
   @media screen and (max-width: 1050px){
+    body{
+      background-image: url("yoasobiticket.jpg") ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
    .header ul {
       list-style-type: none;
       margin: 0;
@@ -297,6 +327,16 @@ body{
     border: 2px solid #ffee00;
     background-color: #ffee00;
     color: rgb(0, 0, 0);
+  }
+  .right-side{
+    color:black;
+    background-color: rgb(204, 204, 204, 0.9);
+    width:90%;
+    float: none;
+  }
+  .left-side{
+    width:90%;
+    float: none;
   }
   /*---------------------------------------------*/
 
