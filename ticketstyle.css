@@ -1,3 +1,9 @@
+body{
+  background-image: url("ticket.jpg.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .header ul {
     list-style-type: none;
     margin: 0;
@@ -19,13 +25,109 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-#active{
-    background-color:  rgba(76, 73, 255);
-}
 .header li a:hover {
     background-color: rgb(110, 110, 110, 0.5);
   }
 
+  /*--------------------------The form css-----------------------------*/
+  fieldset{
+    font-size: 20px;
+    padding: 5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 110, 110, 0.7);
+  }
+  .container {
+    margin-top:20px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #ffee00;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+     top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+  #seats{
+    padding:1%;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  form{
+    padding:5%;
+  }
+  .ticket{
+    text-align: center;
+    font-size: 40px;
+    color:#ffee00;
+  }
+  .submit2 {
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(255, 255, 255,0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 2px solid #ffffff;
+  }
+  
+  .submit2:hover {
+    font-size: 20px;
+    border: 2px solid #ffee00;
+    background-color: #ffee00;
+    color: rgb(0, 0, 0);
+  }
+  /*-----------------------------------------------------------------------*/
   .footer{
     padding: 15%;
     background: linear-gradient(to left, rgba(107, 44, 255, 0.5) , rgba(109, 177, 255) );
@@ -57,7 +159,7 @@
   }
   
   input[type=text]:focus {
-    border: 3px solid rgb(156, 69, 255);
+    border: 3px solid #ffee00;
   }
   .submit {
     width: 100%;
@@ -71,4 +173,177 @@
     border: 2px solid rgb(180, 113, 255);
     background-color: rgb(173, 101, 255);
     color: white;
+  }
+
+  @media screen and (max-width: 1050px){
+   .header ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: linear-gradient(to left, rgb(0, 255, 179) , rgb(238, 109, 255) );
+    }
+    
+   .header li {
+      float: left;
+    }
+    
+   .header li a {
+      display: block;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+   .header li a:hover {
+      background-color: rgb(110, 110, 110, 0.5);
+    }
+  /*--------------------------------------------------------------------------*/
+  fieldset{
+    font-size: 15px;
+    padding: 5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 110, 110, 0.7);
+  }
+  .container {
+    margin-top:20px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #ffee00;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+     top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+  #seats{
+    padding:1%;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  form{
+    padding:5%;
+  }
+  .ticket{
+    text-align: center;
+    font-size: 20px;
+    color:#ffee00;
+  }
+  .submit2 {
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(255, 255, 255,0);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: 2px solid #ffffff;
+  }
+  
+  .submit2:hover {
+    font-size: 15px;
+    border: 2px solid #ffee00;
+    background-color: #ffee00;
+    color: rgb(0, 0, 0);
+  }
+  /*---------------------------------------------*/
+
+    .footer{
+      padding: 20%;
+      background: linear-gradient(to left, rgba(255, 72, 246, 0.7) , rgba(0, 255, 170, 0.7));
+      margin-top: 10%;
+      color: white;
+      font-size: 12px;
+      height: 170px;
+    }
+    .footer h3{
+      font-size: 15px;
+    }
+    .aside-left{
+      margin-top: -30%;
+      width: 100%;
+    }
+    .aside-right{
+      margin-top: 5px;
+      width: 100%;
+    }
+   .aside-right input[type=text] {
+      width: 100%;
+      padding: 6px 8px;
+      margin: 5px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      transition: 0.5s;
+      outline: none;
+    }
+    
+   .aside-right input[type=text]:focus {
+      border: 3px solid rgb(234, 0, 255);
+    }
+    .submit {
+      width: 100%;
+      padding: 3%;
+      background-color: rgb(255, 255, 255,0);
+      color: rgb(255, 255, 255);
+      border: 2px solid #ffffff;
+    }
+    
+    .submit:hover {
+      border: 2px solid rgb(86, 255, 218);
+      background-color: rgb(101, 255, 204);
+      color: white;
+    }
+    
   }

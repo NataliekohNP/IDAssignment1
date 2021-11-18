@@ -11,3 +11,4 @@ yoasobi second section 2 album cover - https://assets.audiomack.com/riddikulusra
 yoasobi third section album cover - https://i1.sndcdn.com/artworks-fd9ZAieNVU2Dnx4s-QBBDag-t500x500.jpg
 yoasobi fourth section album cover - https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Yoasobi_-_Kaibutsu.jpg/220px-Yoasobi_-_Kaibutsu.jpg
 yoasobi fourth section 2 album cover - https://images.genius.com/374c4ff75dbc163a5503f8b69e448f94.712x712x1.jpg
+Seating chart - https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.newmarketholidays.co.uk%2Fconcerts-and-events%2Fandre-rieu%2Fandre-rieu-in-maastricht-by-air-3-days&psig=AOvVaw0R2qsFw_-IHbnlX_YCx4cO&ust=1637286914827000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiQgaHnoPQCFQAAAAAdAAAAABAa

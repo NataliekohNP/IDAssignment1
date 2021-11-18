@@ -10,12 +10,67 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#" id="active">Music</a></li>
+                <li><a href="music.html">Music</a></li>
                 <li><a href="concert.html">Concert</a></li>
               </ul>
         </nav>
         
     </header>
+    <section>
+        <img width="100%" height="auto" src="seatchart.png" alt="seatchart">
+    </section>
+    <section>
+        <form>
+            <fieldset>
+            <legend>Ticket Details</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <h3>Timing: 6:30pm</h3>
+            <label for="seats">Choose a Seat:</label>
+            <select id="seats" name="Seats">
+                <option value="premium">A2</option>
+                <option value="category1">A1</option>
+                <option value="category1">A3</option>
+                <option value="category3">B1</option>
+                <option value="category2">B2</option>
+                <option value="category3">B3</option>
+                <option value="category5">C1</option>
+                <option value="category4">C2</option>
+                <option value="category5">C3</option>
+            </select>
+            <label class="container">Odyessey(SSE Belfast), Belfast, United Kingdom
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">The SSE arena Wembley, London United Kingdom
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Motorpoint Arena Cardiff, Cardiff United Kingdom
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">M&S Bank Arena, Liverpool, United Kingdom
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Plymouth Pavillions, Plymouth United Kingdom
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Utilita Arena Birmingham,Birmingham, United Kingdom
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <h1 class="ticket">Ticket price: </h1>
+              <h1 class="ticket">$40</h1>
+              
+              <input type="submit" value="Submit" class="submit2">
+            </fieldset>
+          </form>
+    </section>
     <footer class="footer">
         <div class="aside-left">
             <h3>Yaosobi</h3>
@@ -25,8 +80,8 @@
         <div class="aside-right">
             <form>
                 <h3>Subscribe</h3>
-                <input type="text" name="name" placeholder="Enter Your Name" style="margin-top: -5%;">
-                <input type="text" name="email" placeholder="Enter Your Email">
+                <input type="text" class="text" name="name" placeholder="Enter Your Name" style="margin-top: -5%;">
+                <input type="text" class="text" name="email" placeholder="Enter Your Email">
                 <input type="submit" name="submit" value="Submit" class="submit">
             </form>
         </div>
