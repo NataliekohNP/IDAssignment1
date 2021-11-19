@@ -201,7 +201,7 @@ body{
 
   @media screen and (max-width: 1050px){
     body{
-      background-image: url("yoasobiticket.jpg") ;
+      background-image: url("images/yoasobiticket.jpg") ;
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
