@@ -1,5 +1,5 @@
 body{
-    background-image: url("yoasobi2.jpg");
+    background-image: url("images/yoasobi2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -68,7 +68,7 @@ ul {
     flex: 100%;
   }
   .flex-container > .flex-item-right-blank {
-    background-image: url("yoasobi3.jpg");
+    background-image: url("images/yoasobi3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100px;
@@ -79,7 +79,7 @@ ul {
     flex: 50%;
   }
   .flex-container > .flex-item-left-blank {
-    background-image: url("producerpic.jpg");
+    background-image: url("images/producerpic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100px;
@@ -198,7 +198,7 @@ ul {
       flex: 100%;
     }
     .flex-container > .flex-item-right-blank {
-      background-image: url("yoasobi3.jpg");
+      background-image: url("images/yoasobi3.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100px;
@@ -209,7 +209,7 @@ ul {
       flex: 100%;
     }
     .flex-container > .flex-item-left-blank {
-      background-image: url("producerpic.jpg");
+      background-image: url("images/producerpic.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100px;
