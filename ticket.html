@@ -3,6 +3,7 @@
 <head>
 <title>Home</title>
 <link rel="stylesheet" href="ticketstyle.css">
+<script src="form.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -21,7 +22,7 @@
     </section>
     <section>
       
-        <form>
+        <form name="form" onsubmit="return validateForm()" method="post" required>
           <div style="background-color: rgba(0, 0, 0, 0.9); padding: 5px;">
             <h1 class="ticket">Ticket price:</h1>
             <h1 class="ticket">$40</h1>
@@ -34,7 +35,7 @@
             <input type="text" id="email" name="email">
             <h3>Timing: 6:30pm</h3>
             <label for="seats">Choose a Seat:</label>
-            <select id="seats" name="Seats">
+            <select id="seats" name="Seats" required>
                 <option value="premium">A2</option>
                 <option value="category1">A1</option>
                 <option value="category1">A3</option>
@@ -86,11 +87,11 @@
             <div class="row">
               <div class="inline">
                 <label for="expmonth" >Exp Month</label>
-                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
                 <label for="expyear" >Exp Year</label>
-                <input type="text" id="expyear" name="expyear" placeholder="2018">
+                <input type="text" id="expyear" name="expyear" placeholder="2018" required>
                 <label for="cvv" >CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="352">
+                <input type="text" id="cvv" name="cvv" placeholder="352" required>
               </div>
 
             </div>
@@ -109,8 +110,8 @@
         <div class="aside-right">
             <form>
                 <h3>Subscribe</h3>
-                <input type="text" class="text" name="name" placeholder="Enter Your Name" style="margin-top: -5%;">
-                <input type="text" class="text" name="email" placeholder="Enter Your Email">
+                <input type="text" class="text" name="name" placeholder="Enter Your Name" style="margin-top: -5%;" required>
+                <input type="text" class="text" name="email" placeholder="Enter Your Email" required>
                 <input type="submit" name="submit" value="Submit" class="submit">
             </form>
         </div>
