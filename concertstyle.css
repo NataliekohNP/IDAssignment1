@@ -30,6 +30,11 @@ ul {
   li a:hover {
     background-color: rgba(76, 73, 255, 0.5);
   }
+  .header{
+    position: fixed;
+    top:6px;
+    width: 98%
+  }
   #active{
       background-color:  rgba(76, 73, 255);
   }
