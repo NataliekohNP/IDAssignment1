@@ -27,14 +27,20 @@ CSS
 Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
+Book Tickets page:
+Go to the "concert" page
+click on buy tickets
 Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+improvements:
+- did not clarify the email address, cam input random values
+- did not clarify the successfully booked message.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+minimize all pages, use internet explorer as well on the pages, it should have responsiveness on the website. 
+
+For mobile version:
+the design is messy and needs to be improved.
+the website responsive and the phone responsiveness is different from the phone
+
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
