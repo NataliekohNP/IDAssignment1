@@ -1,7 +1,8 @@
+
 function validateForm() {
     var sucess= true;
     var x = document.forms["form"]["name"].value;
-    if (x == "" || x == null) {
+    if (x == "" || x == null ) {
       alert("Name must be filled out");
       sucess = false;
     }
@@ -20,7 +21,7 @@ function validateForm() {
       alert("Credit card name must be filled out");
       sucess = false;
     }
-    if (success=true) {
+    if (sucess == true) {
         alert("Your Ticket is booked! go to your email, tickets are noted there");
     }
   }

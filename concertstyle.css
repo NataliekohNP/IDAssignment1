@@ -40,6 +40,7 @@ ul {
   }
   /*-----------------------section styling----------------------*/
   .table, tr, td {
+    margin-top: 5%;
     background: linear-gradient(to left, rgba(107, 44, 255, 0.1) , rgba(109, 177, 255, 0.1) );
     margin-bottom: -10%;
     border-spacing: 20px;
@@ -213,6 +214,7 @@ ul {
       }
       /*--------------- table --------- */
       .table, tr, td {
+        margin-top: 15%;
         background: linear-gradient(to bottom right, rgba(14, 173, 94, 0.3) , rgba(219, 61, 211, 0.3) );
         margin-bottom: -10%;
         border-spacing: 5px;
