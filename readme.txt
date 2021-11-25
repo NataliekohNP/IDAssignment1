@@ -1,7 +1,7 @@
 BUilding a website for my Band
 Yoasobi is a 2 person band, I want to make a website for their fans to find out more about them,and to know more about their music. 
 this website also allows them to buy concert tickets for their concert and to 
-keep in touch with the band notifications using their emails
+keep in touch with the band notifications through emails.
 
 
 
