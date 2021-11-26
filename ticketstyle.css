@@ -4,6 +4,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+/*This is the nav*/
 .header ul {
     list-style-type: none;
     margin: 0;
@@ -28,14 +29,16 @@ body{
 .header li a:hover {
     background-color: rgb(110, 110, 110, 0.5);
   }
-
+/*-------------------------------------------------------------------------------------------*/
   /*--------------------------The form css-----------------------------*/
+  /*I change the fieldset border and change the font size and background color*/
   fieldset{
     font-size: 20px;
     padding: 5%;
     color: rgb(255, 255, 255);
     background-color: rgb(110, 110, 110, 0.7);
   }
+  /*This is to create  my checkfield design*/
   .container {
     margin-top:20px;
     display: block;
@@ -50,14 +53,14 @@ body{
     user-select: none;
   }
   
-  /* Hide the browser's default radio button */
+  /*This is to hide the browser's default radio button */
   .container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
   }
   
-  /* Create a custom radio button */
+  /*This is to create a custom radio button */
   .checkmark {
     position: absolute;
     top: 0;
@@ -99,6 +102,7 @@ body{
     border-radius: 50%;
     background: white;
   }
+  /*To design the seats drop down list*/
   #seats{
     padding:1%;
     width: 100%;
@@ -107,6 +111,7 @@ body{
   form{
     padding:5%;
   }
+  /*to style the ticket price and heading*/
   .ticket{
     text-align: center;
     font-size: 40px;
@@ -121,14 +126,14 @@ body{
     font-size: 20px;
     border: 2px solid #ffffff;
   }
-  
+  /*this is*/
   .submit2:hover {
     font-size: 20px;
     border: 2px solid #ff0080;
     background-color: #ff0080;
     color: rgb(0, 0, 0);
   }
-
+/*This is to help make the fieldset side by side by using float*/
   .right-side{
     color:rgb(255, 255, 255);
     background-color: rgba(248, 36, 117, 0.9);
@@ -140,10 +145,12 @@ body{
     width:35%;
     float:left;
   }
+  /*To create the white border*/
   legend{
     color:rgb(255, 255, 255);
     border: white;
   }
+  /*The credit card images styling*/
   .icon-container img{
     background-color: white;
     width: 40px;
