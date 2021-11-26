@@ -1,3 +1,4 @@
+/*I used header to differentiate the ul according to the ul and li as it will help avoid any confusion*/
 .header ul {
     list-style-type: none;
     margin: 0;
@@ -30,21 +31,27 @@
 .header li a:hover {
     background-color: rgb(110, 110, 110, 0.5);
   }
+  /*-----------------------------------------------------------------------------------------*/
+  /*This body is just to change the gradient of the body to create a nice transition*/
 body{
     background: linear-gradient(to bottom, rgb(72, 255, 255) , rgb(222, 113, 255),rgb(132, 155, 255) , rgb(252, 176, 255),rgb(245, 80, 143),  rgb(91, 76, 95), rgb(255, 0, 0),rgb(0, 0, 0),   rgba(109, 177, 255));
 }
-  
+/*This item is to signify the video divider and the information divider. 
+I gave it a padding so that it will not look too packed. */
 .item-left{
     padding: 2%;
     float: left;
     width: 50%;
   }
+  /*I created margin top as it is to allow the information to be centered in the divider*/
 .item-right{
     margin-top: 4%;
     margin-right: 10%;
     width: 25%;
     float: right;
   }
+  /*-------------------------------------------------------------------------*/
+  /*This is to change the font colors and the sizes*/
   p{
     color:white;
     margin-top: -10%;
@@ -56,30 +63,15 @@ body{
     padding-left:0%;
     font-size: 30px;
   }
-  .section3{
-    /* background: linear-gradient(to left, rgb(245, 80, 143),  rgb(91, 76, 95) ); */
+  /*-----------------------------------------------------*/
+  /*section css*/
+  .section{
     padding-top: 10%;
     background-size: cover;
     padding-bottom: 40%;
   }
-  .section1{
-    /* background: linear-gradient(to left, rgb(72, 255, 255) , rgb(222, 113, 255) ); */
-    padding-top: 10%;
-    background-size: cover;
-    padding-bottom: 40%;
-  }
-  .section2{
-    /* background: linear-gradient(to left, rgb(132, 155, 255) , rgb(252, 176, 255) ); */
-    padding-top: 10%;
-    background-size: cover;
-    padding-bottom: 40%;
-  }
-  .section4{
-    /* background: linear-gradient(to left, rgb(255, 0, 0) , rgb(0, 0, 0) ); */
-    padding-top: 10%;
-    background-size: cover;
-    padding-bottom: 40%;
-  }
+  /*---------------------------------------------------------*/
+  /*the footer design. can refer to the about page css for the description for footer css*/
   .footer{
     padding: 15%;
     background: linear-gradient(to left, rgba(107, 44, 255, 0.5) , rgba(109, 177, 255) );
@@ -126,8 +118,10 @@ body{
     background-color: rgb(173, 101, 255);
     color: white;
   }
-
+/*--------------------------------------------------------------------------------*/
+/*Mobile responsive*/
   @media screen and (max-width: 1050px)  {
+  /*The nav bar and the body style------------------------------------*/
     body{
       background: linear-gradient(to bottom, rgb(72, 255, 255) , rgb(222, 113, 255),rgb(132, 155, 255) , rgb(252, 176, 255),rgb(245, 80, 143),  rgb(91, 76, 95), rgb(255, 0, 0),rgb(0, 0, 0) );
     }
@@ -156,16 +150,19 @@ body{
   .header li a:hover {
       background-color: rgb(110, 110, 110, 0.5);
     }
-    
+    /*------------------------------------------------------------------------------------------*/
+    /*to change the image of the album to not display*/
     .item-right img{
       display: none;
     }
+    /*to keep the heading and information to the left*/
     .item-right{
       margin-top: 50px;
       width: 40px;
       font-size: 10%;
       float: left;
     }
+    /*Changes the font size and positioning in mobile layout*/
     h3{
       margin-left: 70%;
       color: black;
@@ -178,42 +175,32 @@ body{
       margin-left: 20%;
       margin-right: -100px;
     }
+    /*---------------------------------------------------------------*/
+    /*to help change the padding as the title is different sizes. Thus because of the different sizes,
+    the spacing between the title and the words is different. Therefore, have to add more spacing*/
     #spacing{
       padding-bottom:90px;
     }
     #spacing2{
       padding-bottom:140px;
     }
+    /*----------------------------------------------------------------------*/
+    /*This is the video to change the layout to the rightside instead*/
     .item-left{
       margin-right: 5%;
       float: right;
       width: 50%;
 
     }
-    .section1{
+    /*------------------------------------------------------------------*/
+    /*This helps to have background shaped through the mobile layout*/
+    .section{
       background: rgba(255, 255, 255, 0.7);
       margin-bottom: 50%;
       padding-top: 10%;
       padding-bottom: 40%;
     }
-    .section2{
-      background: rgba(255, 255, 255, 0.7);
-      margin-bottom: 50%;
-      padding-top: 10%;
-      padding-bottom: 40%;
-    }
-    .section3{
-      background: rgba(255, 255, 255, 0.7);
-      margin-bottom: 50%;
-      padding-top: 10%;
-      padding-bottom: 40%;
-    }
-    .section4{
-      background: rgba(255, 255, 255, 0.7);
-      margin-bottom: 50%;
-      padding-top: 10%;
-      padding-bottom: 40%;
-    }
+    /*------------footer css-----------*/
     .footer{
       padding: 20%;
       background: linear-gradient(to bottom right, rgb(255, 0, 0) , rgb(0, 0, 0));
@@ -276,5 +263,6 @@ body{
       margin-right: 0;
       color: white;
     }
+    /*------------------------------------------------------*/
   }
 

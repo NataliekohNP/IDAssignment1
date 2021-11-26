@@ -39,6 +39,7 @@ ul {
       background-color:  rgba(76, 73, 255);
   }
   /*-----------------------section styling----------------------*/
+  /*This changes the style of the table*/
   .table, tr, td {
     margin-top: 5%;
     background: linear-gradient(to left, rgba(107, 44, 255, 0.1) , rgba(109, 177, 255, 0.1) );
@@ -48,6 +49,7 @@ ul {
   tr, td{
     border-color: rgba(109, 177, 255, 0.3);
   }
+  /*Changes the button color inside the table data*/
   .btn{
       padding: 5%;
       margin-left:95px;
@@ -63,11 +65,11 @@ ul {
       color: white;
       border: 2px solid #6348ff;
     }
-  
+  /*The table data can be hovered to show the user where the mouse is*/
   td:hover {
       background-color: #98b7ec;
     }
-  
+  /*this helps me to change color and style the fonts in the table*/
   .table h3,h5{
       color:rgb(255, 255, 255);
       text-align: center;
@@ -78,6 +80,7 @@ ul {
   h5{
       font-size: 20px;
   }
+  /*------------------------------------------------------------------*/
   /*-----------------------Footer styling----------------------*/
   .footer{
     padding: 15%;
@@ -135,8 +138,9 @@ ul {
     text-align: left;
     padding: 5%;
   }
-
+/*the mobile design--------------------------------------------------------*/
   @media screen and (max-width: 1050px){
+    /*Header design*/
     body{
         background-image: url("images/yaosobialt.jpg");
         background-size: cover;
@@ -167,6 +171,8 @@ ul {
     li a:hover {
       background-color: rgb(110, 110, 110, 0.5);
     }
+    /*--------------------------------------------------------------------*/
+    /*footer design*/
     .footer{
         padding: 20%;
         background: linear-gradient(to left, rgba(255, 72, 246, 0.7) , rgba(0, 255, 170, 0.7));
@@ -213,6 +219,7 @@ ul {
         color: white;
       }
       /*--------------- table --------- */
+      /*The css and styling is the same, however is the colors that change due to the theme changing*/
       .table, tr, td {
         margin-top: 15%;
         background: linear-gradient(to bottom right, rgba(14, 173, 94, 0.3) , rgba(219, 61, 211, 0.3) );

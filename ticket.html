@@ -6,6 +6,7 @@
 <script src="form.js" defer></script>
 </head>
 <body>
+  <!--The nav-->
     <header class="header">
         <nav>
             <ul>
@@ -17,9 +18,12 @@
         </nav>
         
     </header>
+    <!------------------------------------------------------>
+    <!--The picture of the seating chart-->
     <section>
         <img width="100%" height="auto" src="images/seatchart.png" alt="seatchart">
     </section>
+    <!------------------------------------------------------------------------------------>
     <section>
       
         <form name="form"  method="post"  onsubmit="return validateForm()" required>
@@ -28,6 +32,7 @@
             <h1 class="ticket">$40</h1>
           </div>
             <fieldset class="left-side">
+            <!----This is left form to put details for the ticket-->
             <legend>Ticket Details</legend>
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
@@ -71,6 +76,8 @@
                 <span class="checkmark"></span>
               </label>
             </fieldset>
+            <!------------------------------------------------------------------->
+            <!---This is a form for payment -->
             <fieldset class="right-side">
               <legend>Payment</legend>
             <label for="fname">Accepted Cards</label>
@@ -97,10 +104,12 @@
             </div>
             
             </fieldset>
-            
+            <!------------------------------------------------------------------------------------------->
+            <!--This is the checkout button-->
             <input type="submit" name="submit" value="Proceed to checkout" class="submit2">
           </form>
     </section>
+    <!--Footer-->
     <footer class="footer">
         <div class="aside-left">
             <h3>Yaosobi</h3>
@@ -116,5 +125,6 @@
             </form>
         </div>
     </footer>
+    <!------------------------------------------------------------------------------------------------------------------------------>
 </body>
 </html>
