@@ -2,7 +2,9 @@
 <html>
 <head>
 <title>Home</title>
-<link rel="stylesheet" href="ticketstyle.css">
+<link rel="stylesheet" type="text/css" href="normalize.css">
+<link rel="stylesheet" type="text/css" href="ticketstyle.css">
+
 <script src="form.js" defer></script>
 </head>
 <body>
@@ -26,7 +28,7 @@
     <!------------------------------------------------------------------------------------>
     <section>
       
-        <form name="form"  method="post"  onsubmit="return validateForm()" required>
+        <form name="form"  method="post"  onsubmit="return validateForm()" >
           <div style="background-color: rgba(0, 0, 0, 0.9); padding: 5px;">
             <h1 class="ticket">Ticket price:</h1>
             <h1 class="ticket">$40</h1>
@@ -43,13 +45,13 @@
             <select id="seats" name="Seats" required>
                 <option value="premium">A2</option>
                 <option value="category1">A1</option>
-                <option value="category1">A3</option>
+                <option value="category2">A3</option>
                 <option value="category3">B1</option>
-                <option value="category2">B2</option>
-                <option value="category3">B3</option>
-                <option value="category5">C1</option>
-                <option value="category4">C2</option>
-                <option value="category5">C3</option>
+                <option value="category4">B2</option>
+                <option value="category5">B3</option>
+                <option value="category6">C1</option>
+                <option value="category7">C2</option>
+                <option value="category8">C3</option>
             </select>
             <label class="container">Odyessey(SSE Belfast), Belfast, United Kingdom
                 <input type="radio" checked="checked" name="radio">
@@ -80,7 +82,7 @@
             <!---This is a form for payment -->
             <fieldset class="right-side">
               <legend>Payment</legend>
-            <label for="fname">Accepted Cards</label>
+            <label>Accepted Cards</label>
             <div class="icon-container">
              <img src="images/american-express.png" alt="american-express">
              <img src="images/paypal.png" alt="paypal">
