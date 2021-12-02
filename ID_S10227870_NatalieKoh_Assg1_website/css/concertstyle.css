@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/indexpic.jpg");
+    background-image: url("../images/indexpic.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -142,7 +142,7 @@ ul {
   @media screen and (max-width: 1050px){
     /*Header design*/
     body{
-        background-image: url("images/yaosobialt.jpg");
+        background-image: url("../images/yaosobialt.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         color: white;

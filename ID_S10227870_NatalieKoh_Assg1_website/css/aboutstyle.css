@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("images/yoasobi2.jpg");
+    background-image: url("../images/yoasobi2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -85,7 +85,7 @@ ul {
   }
   /*This is to help me shape the image as well as make the picture overlays with the containter item above*/
   .flex-container > .flex-item-right-blank {
-    background-image: url("images/yoasobi3.jpg");
+    background-image: url("../images/yoasobi3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100px;
@@ -98,7 +98,7 @@ ul {
   }
   /*This is to help me shape the image as well as make the picture overlays with the containter item above*/
   .flex-container > .flex-item-left-blank {
-    background-image: url("images/producerpic.jpg");
+    background-image: url("../images/producerpic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100px;
@@ -231,7 +231,7 @@ ul {
       flex: 100%;
     }
     .flex-container > .flex-item-right-blank {
-      background-image: url("images/yoasobi3.jpg");
+      background-image: url("../images/yoasobi3.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100px;
@@ -242,7 +242,7 @@ ul {
       flex: 100%;
     }
     .flex-container > .flex-item-left-blank {
-      background-image: url("images/producerpic.jpg");
+      background-image: url("../images/producerpic.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100px;

@@ -2,7 +2,7 @@
 body{
     padding: 15%;
     text-align: center;
-    background-image: url("images/indexpic.jpg");
+    background-image: url("../images/indexpic.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ body{
     body{
     padding: 15%;
     text-align: center;
-    background-image: url("images/yaosobialt.jpg");
+    background-image: url("../images/yaosobialt.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
