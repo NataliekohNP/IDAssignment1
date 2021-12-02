@@ -5,39 +5,8 @@ body{
     background-attachment: fixed;
     color: white;
 }
-/*-----------------------navigation styling----------------------*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: linear-gradient(to left, rgba(107, 44, 255) , rgba(109, 177, 255) );
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: rgba(76, 73, 255, 0.5);
-  }
-  .header{
-    position: fixed;
-    top:6px;
-    width: 98%
-  }
-  #active{
-      background-color:  rgba(76, 73, 255);
-  }
+
+
   /*-----------------------section styling----------------------*/
   /*This changes the style of the table*/
   .table, tr, td {
@@ -81,53 +50,6 @@ ul {
       font-size: 20px;
   }
   /*------------------------------------------------------------------*/
-  /*-----------------------Footer styling----------------------*/
-  .footer{
-    padding: 15%;
-    background: linear-gradient(to left, rgba(107, 44, 255, 0.5) , rgba(109, 177, 255) );
-    margin-top: 10%;
-    color: white;
-    font-size: 15px;
-  }
-  .footer h3{
-    font-size: 25px;
-  }
-  .aside-left{
-    margin-top: -10%;
-    width: 40%;
-    float: left;
-  }
-  .aside-right{
-    margin-top: -10%;
-    width: 30%;
-    float: right;
-  }
-  input[type=text] {
-    width: 100%;
-    padding: 10px 15px;
-    margin: 5px 0;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    transition: 0.5s;
-    outline: none;
-  }
-  
-  input[type=text]:focus {
-    border: 3px solid rgb(156, 69, 255);
-  }
-  .submit {
-    width: 100%;
-    padding: 3%;
-    background-color: rgb(255, 255, 255,0);
-    color: rgb(255, 255, 255);
-    border: 2px solid #ffffff;
-  }
-  
-  .submit:hover {
-    border: 2px solid rgb(180, 113, 255);
-    background-color: rgb(173, 101, 255);
-    color: white;
-  }
   table {
     border: none;
     width: 100%;
